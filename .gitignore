@@ -31,10 +31,7 @@ dist/
 detected_images/
 detected_objects_pretrained/
 
-# (Optional) If you don't want to track large dataset/annotation folders:
-# datasets/
- annotations/
+annotations/
 
-# Explicitly ignore these utility scripts that are not part of the core repository
 Visualize.py
 Num_classes.py
