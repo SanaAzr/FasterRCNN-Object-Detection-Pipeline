@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Model checkpoints and other large artifacts
+*.pth
+
+# Inference output directories
+detected_images/
+detected_objects_pretrained/
+
+# (Optional) If you don't want to track large dataset/annotation folders:
+# datasets/
+ annotations/
+
+# Explicitly ignore these utility scripts that are not part of the core repository
+Visualize.py
+Num_classes.py
